@@ -1,0 +1,39 @@
+The information mentioned in the video: 
+
+GPU compute capability https://developer.nvidia.com/cuda-gpus 
+
+★ Version compatibility among cuDNN, CUDA and tensorflow https://www.tensorflow.org/install/source_windows
+
+★ Compute capability of MX serious GPU https://en.wikipedia.org/wiki/CUDA 
+
+★ CUDA Toolkit and Compatible Driver Versions https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html
+
+★ GPU latest driver download https://www.nvidia.com/Download/index.aspx
+
+★ GPU legacy driver download https://www.geforce.com/drivers/beta-legacy
+
+Conda commands: 
+
+★ Create a new environment → conda create --name ENV_NAME python=3.x 
+
+★ Delete an environment → conda env remove --name ENV_NAME -Check all environments → conda env list 
+
+★ Activate an existing environment → activate ENV_NAME 
+
+★ Install packages → conda install PACKAGENAME or pip install PACKAGENAME 
+
+★ Update packages → conda update PACKAGENAME 
+
+★ Remove packages → conda remove PACKAGENAME 
+
+★ Deactivate an existing environment → deactivate 
+
+Codes for testing tensorflow-gpu installation: 
+
+1. python 
+
+2. from tensorflow.python.client import device_lib 
+
+3. print(device_lib.list_local_devices()) 
+
+4. Ctrl + z to leave python coding environment 
